@@ -1,0 +1,19 @@
+{
+  "name": "pesitos-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend propio de Pesitos — saldo autoritativo, cobros PayPal server-side, settlement de juegos y escritura del ledger. Reemplaza las reglas que dejaban al cliente escribir saldo.",
+  "scripts": {
+    "dev": "node --watch index.mjs",
+    "start": "node index.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.2",
+    "express": "^4.21.2",
+    "cors": "^2.8.5"
+  }
+}
